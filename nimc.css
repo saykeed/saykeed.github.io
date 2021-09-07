@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    font-family: Cambria;
+}
+
+/*for the nav dropdown */
+.nav-item .nav-link{
+    color: white;
+    
+}
+
+.nav-item .nav-link:hover{
+    background-color: white;
+    color: green;
+    font-weight: bo lder;
+    
+}
+
+a.dropdown-item:hover{
+    background-color: rgb(166, 226, 166);
+}
+
+/*making dropdown hoverable */
+@media screen and (min-width:700px){
+    /*to make the dropdown hoverable */
+.dropdown:hover .dropdown-menu{
+    display: block;
+    /*remove the top margin so it wont close */
+    margin-top: 0;
+    }
+}
+
+/*for the navbar toggler design */
+.navbar-toggler-icon{
+    color: white;
+    border: none;
+
+}
+
+/*for the carousel slide show */
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*for the colums */
+#colhead{
+    background-image: linear-gradient(rgb(57, 226, 57), rgb(5, 56, 5));
+    color: white;
+    
+}
+
+#colbody{
+    background-color: rgba(253, 250, 250, 0.754);
+    border: 1px solid lightgray;
+}
+
+p#colbody a{
+    color: green;
+}
+
+/*for the ethics paragraph*/
+#ethicspara{
+    border: 1px solid lightgray;
+    text-align: center;
+}
+
+/*for the thin line that differentiate section*/
+#diffline{
+    border-bottom: 1px solid lightgray;
+}
+
+/*for the third row*/
+div.media{
+    border: 3px solid green;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 15px;
+    max-width: 300px;
+    height: 150px;
+}
+
+div.media-body p{
+    font-size: 14px;
+    color: green;
+}
+
+@media screen and (max-width:576px){
+    div.media{
+        width: 230px;
+    }
+}
+
+/*for the links at the footer*/
+#footerbody{
+    background-color: rgb(13, 99, 13);
+}
+
+#footerlink h6{
+    color: white;
+}
+
+#footerlink ul{
+    list-style-type: disc;
+}
+
+#footerlink ul li{
+    margin: 5px 0px;
+}
+
+#footerlink ul li a{
+    color: rgb(30, 226, 168);
+    font-size: 12px;
+    
+}
+
+#footerlink .btn{
+    background-color: rgb(30, 226, 168);
+    color: white;
+    width: 40px;
+    
+}
+
+#footerimage{
+   margin-top: 40px;
+}
